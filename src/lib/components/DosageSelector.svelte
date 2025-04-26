@@ -15,5 +15,6 @@
   placeholder="Enter dosage"
   min={minDosage}
   max={maxDosage}
+  required
 />
 

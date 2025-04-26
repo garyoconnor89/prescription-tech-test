@@ -20,8 +20,17 @@
   let initialDose: string = '';
   let doseChange: string = '';
   let changeFrequency: string = '';
+  let attemptedSubmit = false;
 
   function handleSubmit() {
+    attemptedSubmit = true;
+    const noDaySelected = !days.some(day => day.selected);
+
+    // Validate the day checkboxes as a group on submit to avoid
+    // validation on page land
+    if (noDaySelected) {
+      return;
+    }
   // nothing as yet...
   }
 </script>
@@ -31,6 +40,7 @@
   <!-- Days Selector -->
   <DaySelector
     bind:days
+    {attemptedSubmit}
   />
 
   <!-- Prescription Type Selector -->

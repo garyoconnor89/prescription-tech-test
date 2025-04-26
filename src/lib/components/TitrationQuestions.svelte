@@ -21,6 +21,7 @@
   placeholder="Enter initial dose"
   min={0}
   max={60}
+  required
 />
 
 <NumberInput
@@ -30,6 +31,7 @@
   placeholder="Enter {doseChangeType}"
   min={0}
   max={60}
+  required
 />
 
 <NumberInput
@@ -39,6 +41,7 @@
   placeholder="How often (in days)"
   min={1}
   max={14}
+  required
 />
 
 

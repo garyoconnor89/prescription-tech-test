@@ -5,8 +5,8 @@
 </script>
 
 <h3>Select Prescription Type</h3>
-<select bind:value={selectedPrescriptionType}>
-  <option value="" disabled selected>Select a type...</option>
+<select bind:value={selectedPrescriptionType} required>
+  <option value="" disabled>Select a type...</option>
   {#each prescriptionTypes as { value, label }}
     <option value={value}>{label}</option>
   {/each}
