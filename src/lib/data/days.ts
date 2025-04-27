@@ -1,9 +1,9 @@
 export const days = [
-  { name: 'Monday', selected: false },
-  { name: 'Tuesday', selected: false },
-  { name: 'Wednesday', selected: false },
-  { name: 'Thursday', selected: false },
-  { name: 'Friday', selected: false },
-  { name: 'Saturday', selected: false },
-  { name: 'Sunday', selected: false }
+  { name: 'Monday', selected: false, code: 'Mon' },
+  { name: 'Tuesday', selected: false, code: 'Tue' },
+  { name: 'Wednesday', selected: false, code: 'Wed' },
+  { name: 'Thursday', selected: false, code: 'Thu' },
+  { name: 'Friday', selected: false, code: 'Fri' },
+  { name: 'Saturday', selected: false, code: 'Sat' },
+  { name: 'Sunday', selected: false, code: 'Sun' }
 ];
