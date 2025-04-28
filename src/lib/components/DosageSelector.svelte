@@ -8,9 +8,11 @@
   export let maxDosage: number = 60;
 </script>
 
+<h3>Enter Stabilisation Details</h3>
+
 <NumberInput
   bind:value={dosage}
-  label="Enter Dosage (ml)"
+  label="Dosage (ml)"
   id="dosage-input"
   placeholder="Enter dosage"
   min={minDosage}
